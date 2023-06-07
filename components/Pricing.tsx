@@ -100,11 +100,10 @@ export default function Pricing({
         <div className="max-w-6xl px-4 py-8 mx-auto sm:py-24 sm:px-6 lg:px-8">
           <div className="sm:flex sm:flex-col sm:align-center">
             <h1 className="text-4xl font-extrabold text-white sm:text-center sm:text-6xl">
-              Pricing Plans
+              Pyshic 2000
             </h1>
             <p className="max-w-2xl m-auto mt-5 text-xl text-zinc-200 sm:text-center sm:text-2xl">
-              Start building for free, then add a site plan to go live. Account
-              plans unlock additional features.
+            Abonnement pour tout le monde
             </p>
             <div className="relative flex self-center mt-12 border rounded-lg bg-zinc-900 border-zinc-800">
               <div className="border border-pink-500 border-opacity-50 divide-y rounded-lg shadow-sm bg-zinc-900 divide-zinc-600">
@@ -184,7 +183,7 @@ export default function Pricing({
                     : 'ml-0.5 relative w-1/2 border border-transparent text-zinc-400'
                 } rounded-md m-1 py-2 text-sm font-medium whitespace-nowrap focus:outline-none focus:ring-2 focus:ring-pink-500 focus:ring-opacity-50 focus:z-10 sm:w-auto sm:px-8`}
               >
-                Monthly billing
+                Par mois
               </button>
             )}
             {intervals.includes('year') && (
@@ -197,7 +196,7 @@ export default function Pricing({
                     : 'ml-0.5 relative w-1/2 border border-transparent text-zinc-400'
                 } rounded-md m-1 py-2 text-sm font-medium whitespace-nowrap focus:outline-none focus:ring-2 focus:ring-pink-500 focus:ring-opacity-50 focus:z-10 sm:w-auto sm:px-8`}
               >
-                Yearly billing
+                Par an
               </button>
             )}
           </div>
